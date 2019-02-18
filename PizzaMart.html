@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card" style="border-style:solid; border-width: 1.5px; border-radius: 15px; padding:2px; border-color:black;">
+                <div class="card-body text-center">
+                    <h5 class="card-title" style="border-style:solid; border-width: 2px; border-radius: 15px; padding:10px;">PizzaMart</h5>
+                    <form action="/action_page.php">
+                        <div class="card-body text-left">
+                            <div class="form-group">
+                                <label for="email">Email address:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd">
+                            </div>
+                        </div>
+                        <p class="card-text">or Setup <span style="color:blue;"> Account</span></p>
+                        <button type="submit" class="btn btn-primary" style="width:50%; border-radius: 15px">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="card" style="border-style:solid; border-width: 1.5px; border-radius: 15px; padding:2px; border-color:black;">
+                <div class="card-body text-center">
+                    <h5 class="card-title" style="border-style:solid; border-width: 2px; border-radius: 15px; padding:10px;">PizzaMart</h5>
+                    <p class="card-text">Account Setup</p>
+                    <form action="/action_page.php">
+                        <div class="card-body text-left">
+                            <div class="form-group">
+                                <label for="email">Email address:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Credit Card:</label>
+                                <input type="creditcard" class="form-control" id="creditcard">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success" style="width:50%; border-radius: 15px">Setup Account</button>
+                        <br>
+                    </form>
+                </div>
+            </div>
+            <div class="card" style="border-style:solid; border-width: 1.5px; border-radius: 15px; padding:2px; border-color:black;">
+                <div class="card-body text-center">
+                    <h5 class="card-title" style="border-style:solid; border-width: 2px; border-radius: 15px; padding:10px;">PizzaMart</h5>
+                    <br>
+                    <br>
+                    <p class="card-body text-left">On the next screen you will have a selection of pizzas available in
+                        your area.
+                        We will scout out all the pizza restaurants in your area and find you the best price. Once we
+                        find it we'll alert you to the details and you can choose yes or no on the order. If yes, we
+                        will get your pizza to you ASAP.</p>
+                    <br>
+                    <button type="submit" class="btn btn-success" style="width:50%; border-radius: 15px">Let's GO!!</button>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="card-deck">
+            <div class="card" style="border-style:solid; border-width: 1.5px; border-radius: 15px; padding:2px; border-color:black;">
+                <div class="card-body text-center">
+                    <h5 class="card-title" style="border-style:solid; border-width: 2px; border-radius: 15px; padding:10px;">PizzaMart</h5>
+                    <br>
+                    <p class="card-text">Order Here</p>
+                    <br>
+                    <div class="card-body text-left">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="pizzatype">Pepperoni</label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="pizzatype">Hamburger</label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="pizzatype">Cheese</label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                    <br>
+                    <p class="card-text">Finding Your Pizza...</p>
+                    <br>
+                    <br>
+                    <img src="https://i.imgur.com/jMJveoF.gif" class="mx-auto d-block" style="width:50%">
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="card" style="border-style:solid; border-width: 1.5px; border-radius: 15px; padding:2px; border-color:black;">
+                <div class="card-body text-center">
+                    <h5 class="card-title" style="border-style:solid; border-width: 2px; border-radius: 15px; padding:10px;">PizzaMart</h5>
+                    <br>
+                    <br>
+                    <p class="card-text">Great News! We found your pepperoni pizza from Pizza Hut for $7.99 delivered.</p>
+                    <br>
+                    <p class="card-text">Would you like us to send it now?</p>
+                    <br>
+                    <button type="submit" class="btn btn-success" style="width:50%; border-radius: 15px">Yes - SEND IT!!</button>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn btn-danger" style="width:50%; border-radius: 15px">No - I'll Starve</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+</body>
+
+</html>
