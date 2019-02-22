@@ -19,13 +19,12 @@ class ZipCodeInput extends React.Component {
         );
 
         const zip = this.state.delivery_zipcode;
-
-        this.props.handleZipcode(zip);
-    }    
+    }
 
     render() {
         return (
             <div className="form-group">
+                <p>{this.props.specialcode}</p>
                 <input className="form-control" 
                        id="zipcodeInput" 
                        onChange={this.handleZipcodeChange}                       
