@@ -8,9 +8,26 @@ class AppComponent extends React.Component {
     render() {
         return (
             <div className="container">
-                <ZipCodeInput specialcode="okay" />
+                <ZipCodeInput specialcode />
                 <EmailInput />
             </div>
         );
     };
 }
+
+/*
+const App = () => {
+    return React.createElement('div', {}, [
+        React.createElement('h1', null, "To Do List"),
+        React.createElement(ToDoList, {
+            itemone: "brush up on React",
+            itemtwo: "practice more git commands",
+            itemthree: "learn more JavaScript"
+        }),
+        React.createElement(FormInput, {}),
+    ]);
+};*/
+
+var root = document.getElementById('root');
+// ReactDOM.render(React.createElement(AppComponent), root);
+ReactDOM.render(<AppComponent />, root);
